@@ -485,10 +485,8 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
     }
 }
 .lgan{
-   
-
-    -webkit-animation-name: scaleDraw; 
+     -webkit-animation-name: scaleDraw; 
     -webkit-animation-timing-function: ease-in-out; /*速度曲線*/
     -webkit-animation-iteration-count: infinite;  /*次數*/
-    -webk
+    -webkit-animation-duration: 5s;
 }
