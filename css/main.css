@@ -468,3 +468,26 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
     }
   }
 
+
+
+  @keyframes scaleDraw {  
+    0%{
+        transform: scale(1);  
+    }
+    25%{
+        transform: scale(1.1); 
+    }
+    50%{
+        transform: scale(1);
+    }
+    75%{
+        transform: scale(1.1);
+    }
+}
+.lgan{
+   
+
+    -webkit-animation-name: scaleDraw; 
+    -webkit-animation-timing-function: ease-in-out; /*速度曲線*/
+    -webkit-animation-iteration-count: infinite;  /*次數*/
+    -webk
