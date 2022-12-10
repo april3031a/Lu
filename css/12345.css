@@ -56,7 +56,6 @@
   
   .portfolio-icon a {
      font-size: 20px;
-        transform: scale(1);
     color: #fff;
     width: 50%;
     height: 50%;
@@ -68,9 +67,7 @@
   
   .portfolio-icon a:hover {
      transform: scale(1.2);
-    /* font-size: 30px;*/
-
-
+    font-size: 25px;
   }
  
 
