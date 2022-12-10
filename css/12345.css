@@ -56,17 +56,19 @@
   
   .portfolio-icon a {
      font-size: 20px;
+        transform: scale(1);
     color: #fff;
     width: 50%;
     height: 50%;
     display: inline-block;
     -webkit-transition: .3s;
     transition: .3s;
+    transform-origin: center;
   }
   
   .portfolio-icon a:hover {
- 
-     font-size: 30px;
+     transform: scale(1.2);
+    /* font-size: 30px;*/
 
 
   }
@@ -107,7 +109,7 @@
   }
   
   .single-portfolio:hover .portfolio-hover {
-    bottom: 0;
+    bottom: 33%;
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     visibility: visible
